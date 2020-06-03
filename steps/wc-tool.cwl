@@ -3,7 +3,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 requirements:
   - class: DockerRequirement
-    dockerPull: hubmap/example-pipeline-container
+    dockerPull: hubmap/example-pipeline-container:0.1
 
 inputs:
   file1: File

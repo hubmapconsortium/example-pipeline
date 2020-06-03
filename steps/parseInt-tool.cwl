@@ -4,7 +4,7 @@ class: ExpressionTool
 requirements:
   - class: InlineJavascriptRequirement
   - class: DockerRequirement
-    dockerPull: hubmap/example-pipeline-container
+    dockerPull: hubmap/example-pipeline-container:0.1
 cwlVersion: v1.0
 
 inputs:
